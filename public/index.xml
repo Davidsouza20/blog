@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title></title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Engineering Journey</title>
+      <link>http://localhost:1313/blog/blogs/my-engineering-journey/</link>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blogs/my-engineering-journey/</guid>
+      <description>How I got into software engineering and what I&amp;#39;ve learned along the way.</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/blog/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/projects/</guid>
+      <description>&lt;h2 id=&#34;my-projects&#34;&gt;My Projects&lt;/h2&gt;
+&lt;p&gt;Here are some of the projects I&amp;rsquo;ve been working on. You can find more on my &lt;a href=&#34;https://github.com/Davidsouza20&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;textile-production-planning-system&#34;&gt;Textile Production Planning System&lt;/h3&gt;
+&lt;p&gt;A microservices-based system to help textile manufacturers plan and control factory production.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tech:&lt;/strong&gt; Node.js, MongoDB, React.js&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;outsourced-manufacturer-audit-app&#34;&gt;Outsourced Manufacturer Audit App&lt;/h3&gt;
+&lt;p&gt;An application to audit and manage outsourced manufacturers for quality control.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tech:&lt;/strong&gt; Node.js, MongoDB, React.js&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;hotel-proposal-generation-system&#34;&gt;Hotel Proposal Generation System&lt;/h3&gt;
+&lt;p&gt;A system supporting a hotel&amp;rsquo;s sales team in generating and sending priced proposal orders to clients.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

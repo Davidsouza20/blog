@@ -1,0 +1,119 @@
+baseURL: "https://Davidsouza20.github.io/blog/"
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+
+pagination:
+  pagerSize: 10
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+
+languages:
+  en:
+    locale: "en-us"
+    label: "English"
+    weight: 1
+    menu:
+      main:
+        - identifier: blog
+          name: Blog
+          url: /blogs/
+          weight: 10
+        - identifier: projects
+          name: Projects
+          url: /projects/
+          weight: 20
+    params:
+      profileMode:
+        enabled: true
+        title: "David Souza"
+        subtitle: "Software Engineer — building things and sharing the journey"
+        imageUrl: "images/me.png"
+        imageWidth: 200
+        imageHeight: 200
+        imageTitle: "David Souza"
+        buttons:
+          - name: Blog
+            url: /blogs
+          - name: Projects
+            url: /projects
+
+  pt:
+    locale: "pt-br"
+    label: "Português"
+    weight: 2
+    menu:
+      main:
+        - identifier: blog
+          name: Blog
+          url: /pt/blogs/
+          weight: 10
+        - identifier: projects
+          name: Projetos
+          url: /pt/projects/
+          weight: 20
+    params:
+      profileMode:
+        enabled: true
+        title: "David Souza"
+        subtitle: "Engenheiro de Software — construindo coisas e compartilhando a jornada"
+        imageUrl: "images/me.png"
+        imageWidth: 200
+        imageHeight: 200
+        imageTitle: "David Souza"
+        buttons:
+          - name: Blog
+            url: /pt/blogs
+          - name: Projetos
+            url: /pt/projects
+
+params:
+  env: production
+  title: "David Souza"
+  description: "Software engineer sharing my engineering journey and the projects I work on."
+  keywords: [Blog, Engineering, Software, Projects]
+  author: "David Souza"
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  showtoc: true
+  tocopen: false
+  comments: false
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/Davidsouza20"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/david-souza-dev/"
+
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+
+  editPost:
+    URL: "https://github.com/Davidsouza20/blog/edit/main/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+  label:
+    text: "David Souza"
